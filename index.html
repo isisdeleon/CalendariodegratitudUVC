@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Calendario de Gratitud</title>
+	<meta charset="utf-8"/>
+	<link rel="stylesheet" type="text/css" href="estilos.css">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+	<div class="mySidebar" style="width: 0px; transition: 0.05s;" id="mySidebar">
+		<div class="closebtn" onclick="menu_cerrar()">&times;</div>
+		<a href="intro.html">Calendario de Gratitud</a>
+		
+	</div>
+	
+	<script>
+	function menu_abrir() {
+		document.getElementById("mySidebar").style.width = "250px";
+	}	
+
+	function menu_cerrar() {
+		document.getElementById("mySidebar").style.width = "0px";
+		document.getElementById("mySidebar").element.className +='no-shadow';
+	}
+	</script>
+
+	<div class="contenedor_menu">
+		<div class="elementos_menu">
+			<div onclick="menu_abrir()">
+				<img class="img_menu" src="img/opc.png">
+			</div>
+				<img img class="logo_app" src="img/logo.png">
+		</div>
+	</div>
+
+	<div class="contenedor_info">
+		<div class="margenes">
+
+			<div style="margin-top: 0px; margin-bottom: 0px; height:100px;">	
+				<a href="info.html"><img src="img/imgintro.png"> </a>
+			</div>
+
+	
+	<div class="footer">
+	</div>
+
+	</div>
+
+	</div>
+</body>
+</html>

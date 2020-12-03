@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Día 23</title>
+	<meta charset="utf-8"/>
+	<link rel="stylesheet" type="text/css" href="estilos.css">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+	<div class="mySidebar" style="width: 0px; transition: 0.05s;" id="mySidebar">
+		<div class="closebtn" onclick="menu_cerrar()">&times;</div>
+		<a href="intro.html">Calendario de Gratitud</a>
+		
+	</div>
+	
+	<script>
+	function menu_abrir() {
+		document.getElementById("mySidebar").style.width = "250px";
+	}	
+
+	function menu_cerrar() {
+		document.getElementById("mySidebar").style.width = "0px";
+		document.getElementById("mySidebar").element.className +='no-shadow';
+	}
+	</script>
+
+	<div class="contenedor_menu">
+		<div class="elementos_menu">
+			<div onclick="menu_abrir()">
+				<img class="img_menu" src="img/opc.png">
+			</div>
+				<img img class="logo_app" src="img/logo.png">
+		</div>
+	</div>
+
+	<div class="contenedor_info">
+		<div class="margenes">
+			<h2>Día 23</h2>
+			<br>
+			<h3>#Wecare</h3>
+
+			<div style="margin-top: 15px; margin-bottom: 15px; height:140px;">
+				<img src="img/23.1.png" style="width:40%; height: auto; display: block; margin-left: auto; margin-right: auto;" >
+			</div>
+
+	<p style="margin-top: 40px; margin-bottom: 15px;">Brindaré ayuda a alguien que lo necesite.</p>
+	<h3>“El propósito de la vida humana es servir, mostrar compasión y tener voluntad de ayudar a otros.”</h3>
+	<p>Albert Schweitzer</p>
+	<br>
+	<p>El apoyo es el valor que impulsa a las personas a ayudar a los demás. Este apoyo o ayuda no necesariamente tiene que ser monetario o material, existen diversas formas en la que puedes ayudar. Como:</p>
+	<br>
+	<p>Abrir la puerta a alguien</p>
+	<p>Ceder el paso</p>
+	<p>Escuchar a un amigo</p>
+	<P>Ayudar a alguién que lleva algo pesado</P>
+	<p>Ceder tu asiento</p>
+	<p>Dar ride a un amigo</p>
+	<p>Ayudar a alguien a cruzar la calle</p>
+	<br>
+	<div class="footer">
+		<a href="info.html">
+			<button class="boton_2">Regresar</button>
+		</a>
+
+	</div>
+
+	</div>
+
+	</div>
+</body>
+</html>

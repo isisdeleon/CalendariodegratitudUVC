@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Día 4</title>
+	<meta charset="utf-8"/>
+	<link rel="stylesheet" type="text/css" href="estilos.css">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+	<div class="mySidebar" style="width: 0px; transition: 0.05s;" id="mySidebar">
+		<div class="closebtn" onclick="menu_cerrar()">&times;</div>
+		<a href="intro.html">Calendario de Gratitud</a>
+		
+	</div>
+	
+	<script>
+	function menu_abrir() {
+		document.getElementById("mySidebar").style.width = "250px";
+	}	
+
+	function menu_cerrar() {
+		document.getElementById("mySidebar").style.width = "0px";
+		document.getElementById("mySidebar").element.className +='no-shadow';
+	}
+	</script>
+
+	<div class="contenedor_menu">
+		<div class="elementos_menu">
+			<div onclick="menu_abrir()">
+				<img class="img_menu" src="img/opc.png">
+			</div>
+				<img img class="logo_app" src="img/logo.png">
+		</div>
+	</div>
+
+	<div class="contenedor_info">
+		<div class="margenes">
+			<h2>Día 4</h2>
+			<br>
+			<h3>#Weinspireaction</h3>
+
+			<div style="margin-top: 15px; margin-bottom: 15px; height:140px;">
+				<img src="img/4.1.png" style="width:40%; height: auto; display: block; margin-left: auto; margin-right: auto;" >
+			</div>
+
+	<p style="margin-top: 40px; margin-bottom: 15px;">Trataré de disminuir el consumo de agua en casa y oficina.</p>
+	<h3>"Ama el agua, protégela"</h3>
+	<p>Lailah Gifty Akita</p>
+	<br>
+	<p>La superficie de la tierra está conformada por el 70% por agua, sin embargo, toda esa cantidad no está disponible para consumo humano.</p>
+	<br>
+	<p>El 97.5% es agua salada.</p>
+	<p>El 2.5% es agua dulce.</p>
+	<p>De esta cantidad de agua dulce solamente está disponible para el consumo humano el 0.007%, ya que el resto se encuentra congelado en los glaciares.</p>
+	<br>
+	<p>Por eso, es tan importante el cuidado de este recurso, existen pronósticos que en el año 2050 la cuarta parte de la población del mundo vivirá con falta de agua. ¿Qué podemos hacer para cuidarla?.</p>
+	<br>
+	<p>- Repara fugas de agua</p>
+	<p>- Cierra bien todas las llaves</p>
+	<p>- Realiza baños más cortos</p>
+	<p>- No viertas aceite quemado en las coladeras y en el suelo</p>
+	<br>
+	<div class="footer">
+		<a href="info.html">
+			<button class="boton_2">Regresar</button>
+		</a>
+
+	</div>
+
+	</div>
+
+	</div>
+</body>
+</html>

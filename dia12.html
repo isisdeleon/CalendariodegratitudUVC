@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Día 12</title>
+	<meta charset="utf-8"/>
+	<link rel="stylesheet" type="text/css" href="estilos.css">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+	<div class="mySidebar" style="width: 0px; transition: 0.05s;" id="mySidebar">
+		<div class="closebtn" onclick="menu_cerrar()">&times;</div>
+		<a href="intro.html">Calendario de Gratitud</a>
+		
+	</div>
+	
+	<script>
+	function menu_abrir() {
+		document.getElementById("mySidebar").style.width = "250px";
+	}	
+
+	function menu_cerrar() {
+		document.getElementById("mySidebar").style.width = "0px";
+		document.getElementById("mySidebar").element.className +='no-shadow';
+	}
+	</script>
+
+	<div class="contenedor_menu">
+		<div class="elementos_menu">
+			<div onclick="menu_abrir()">
+				<img class="img_menu" src="img/opc.png">
+			</div>
+				<img img class="logo_app" src="img/logo.png">
+		</div>
+	</div>
+
+	<div class="contenedor_info">
+		<div class="margenes">
+			<h2>Día 12</h2>
+			<br>
+			<h3>#Wearehungryformore</h3>
+
+			<div style="margin-top: 15px; margin-bottom: 15px; height:140px;">
+				<img src="img/12.1.png" style="width:28%; height: auto; display: block; margin-left: auto; margin-right: auto;" >
+			</div>
+
+	<p style="margin-top: 40px; margin-bottom: 15px;">Adquiriré un producto que sea orgánico o biodegradable.</p>
+	<h3>“La suprema realidad de nuestro tiempo es la vulnerabilidad de nuestro planeta.”</h3>
+	<p>J. F. Kennedy</p>
+	<br>
+	<p>El consumo responsable es ejercer nuestro poder como consumidores de una forma consciente para el bienestar de nuestra generación y las futuras. ¿Qué preguntas puedo hacerme para hacer una compra responsable?.</p>
+	<br>
+	<p>- ¿Lo necesito?</p>
+	<p>- ¿Puedo compartirlo?</p>
+	<p>- ¿Quién lo ha hecho?</p>
+	<p>- ¿Por dónde ha llegado?</p>
+	<p>- ¿Puede reciclarse?</p>
+	<p>- ¿Y si lo miro con perspectiva de género?</p>
+	<p>- ¿Cuánto cuesta y cuánto dura?</p>
+	<p>- ¿Qué otras opciones hay?</p>
+	<p>- ¿Pero seguro que lo necesito?</p>
+	<br>
+	<p>- ¿Dónde adquirir productos orgánicos o biodegradables?</p>
+	<br>
+	<p>- Actualmente existen mercados que se llevan a cabo una vez a la semana</p>
+	<p>- Existen secciones en los supermercados donde puedes adquirir estos productos (Los costos en algunos productos pueden ser elevados, pero puedes comprar con uno que se acomode a tu bolsillo).</p>
+	<p>- Revisa las etiquetas de los productos, algunos cuentan con sellos de certificaciones sustentables como la de "Rainforest Alliance" puedes encontrarla en secciones del café, flores y tés.</p>
+	<br>
+
+	<div class="footer">
+		<a href="info.html">
+			<button class="boton_2">Regresar</button>
+		</a>
+
+	</div>
+
+	</div>
+
+	</div>
+</body>
+</html>

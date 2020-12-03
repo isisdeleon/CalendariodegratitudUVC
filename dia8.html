@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Día 8</title>
+	<meta charset="utf-8"/>
+	<link rel="stylesheet" type="text/css" href="estilos.css">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+	<div class="mySidebar" style="width: 0px; transition: 0.05s;" id="mySidebar">
+		<div class="closebtn" onclick="menu_cerrar()">&times;</div>
+		<a href="intro.html">Calendario de Gratitud</a>
+		
+	</div>
+	
+	<script>
+	function menu_abrir() {
+		document.getElementById("mySidebar").style.width = "250px";
+	}	
+
+	function menu_cerrar() {
+		document.getElementById("mySidebar").style.width = "0px";
+		document.getElementById("mySidebar").element.className +='no-shadow';
+	}
+	</script>
+
+	<div class="contenedor_menu">
+		<div class="elementos_menu">
+			<div onclick="menu_abrir()">
+				<img class="img_menu" src="img/opc.png">
+			</div>
+				<img img class="logo_app" src="img/logo.png">
+		</div>
+	</div>
+
+	<div class="contenedor_info">
+		<div class="margenes">
+			<h2>Día 8</h2>
+			<br>
+			<h3>#Wedoittogether</h3>
+
+			<div style="margin-top: 15px; margin-bottom: 15px; height:140px;">
+				<img src="img/8.1.png" style="width:40%; height: auto; display: block; margin-left: auto; margin-right: auto;" >
+			</div>
+
+	<p style="margin-top: 40px; margin-bottom: 15px;">Dejaré un plato con agua y/o croquetas para perros y gatos de la calle</p>
+	<h3>"Los animales no son propiedades o cosas, son organismos vivientes, sujetos de una vida, que merecen nuestra compasión, respeto, amistad y apoyo"</h3>
+	<p>Marc Bekoff</p>
+	<br>
+	<p>En México cerca de 500 mil perros y gatos son abandonados al año.</p>
+	<p>El tener una mascota es un regalo y responsabilidad. Aunque no todos tenemos la oportunidad de adoptar o rescatar a un perro o gato de la calle, si podemos realizar pequeñas acciones para ellos, dejar un traste con agua o con croquetas.</p> 
+	<p>Así también existen instituciones que se dedican al rescate de animales, puedes contactar con ellos y realizar una pequeña donación de croquetas.</p>
+	<br>
+	
+	<div class="footer">
+		<a href="info.html">
+			<button class="boton_2">Regresar</button>
+		</a>
+
+	</div>
+
+	</div>
+
+	</div>
+</body>
+</html>

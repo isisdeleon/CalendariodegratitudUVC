@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Día 15</title>
+	<meta charset="utf-8"/>
+	<link rel="stylesheet" type="text/css" href="estilos.css">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+	<div class="mySidebar" style="width: 0px; transition: 0.05s;" id="mySidebar">
+		<div class="closebtn" onclick="menu_cerrar()">&times;</div>
+		<a href="intro.html">Calendario de Gratitud</a>
+		
+	</div>
+	
+	<script>
+	function menu_abrir() {
+		document.getElementById("mySidebar").style.width = "250px";
+	}	
+
+	function menu_cerrar() {
+		document.getElementById("mySidebar").style.width = "0px";
+		document.getElementById("mySidebar").element.className +='no-shadow';
+	}
+	</script>
+
+	<div class="contenedor_menu">
+		<div class="elementos_menu">
+			<div onclick="menu_abrir()">
+				<img class="img_menu" src="img/opc.png">
+			</div>
+				<img img class="logo_app" src="img/logo.png">
+		</div>
+	</div>
+
+	<div class="contenedor_info">
+		<div class="margenes">
+			<h2>Día 15</h2>
+			<br>
+			<h3>#Wedoeverythingwithpassion</h3>
+			<div style="margin-top: 15px; margin-bottom: 15px; height:140px;">
+				<img src="img/15.1.png" style="width:40%; height: auto; display: block; margin-left: auto; margin-right: auto;" >
+			</div>
+
+	<p style="margin-top: 40px; margin-bottom: 15px;">Reutilizaré algún residuo que tenga en mi casa.</p>
+	<h3>"“Las 4R: Reduce, Reutiliza, Recicla y Recupera.”</h3>
+	<br>
+	<p>Durante los festejos la cantidad de basura que se genera aumenta un 30%. Por tal motivo es importante que seamos más conscientes de las compras que realizamos y las acciones que podemos llevar a cabo para disminuir nuestra generación de residuos.</p>
+	<br>
+	<p>- Existen infinidad de ideas en internet en las que puedes utilizar latas, PET, cartón para la elaboración de esferas navideñas que adornarán tu árbol.</p>
+	<p>- Elaboración de árboles de navidad en base a ramas secas, PET, cartón, etcétera</p>
+	<p>- Puedes utilizar el PET para elaborar macetas inteligentes</p>
+	<p>- Envolver regalos con periódico</p>
+	<p>- Elaborar confeti con hojas secas</p>
+
+	<br>
+	
+	<div class="footer">
+		<a href="info.html">
+			<button class="boton_2">Regresar</button>
+		</a>
+
+	</div>
+
+	</div>
+
+	</div>
+</body>
+</html>

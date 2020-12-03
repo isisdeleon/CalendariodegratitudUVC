@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Día 18</title>
+	<meta charset="utf-8"/>
+	<link rel="stylesheet" type="text/css" href="estilos.css">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+	<div class="mySidebar" style="width: 0px; transition: 0.05s;" id="mySidebar">
+		<div class="closebtn" onclick="menu_cerrar()">&times;</div>
+		<a href="intro.html">Calendario de Gratitud</a>
+		
+	</div>
+	
+	<script>
+	function menu_abrir() {
+		document.getElementById("mySidebar").style.width = "250px";
+	}	
+
+	function menu_cerrar() {
+		document.getElementById("mySidebar").style.width = "0px";
+		document.getElementById("mySidebar").element.className +='no-shadow';
+	}
+	</script>
+
+	<div class="contenedor_menu">
+		<div class="elementos_menu">
+			<div onclick="menu_abrir()">
+				<img class="img_menu" src="img/opc.png">
+			</div>
+				<img img class="logo_app" src="img/logo.png">
+		</div>
+	</div>
+
+	<div class="contenedor_info">
+		<div class="margenes">
+			<h2>Día 18</h2>
+			<br>
+			<h3>#Wecare</h3>
+
+			<div style="margin-top: 15px; margin-bottom: 15px; height:140px;">
+				<img src="img/18.1.png" style="width:40%; height: auto; display: block; margin-left: auto; margin-right: auto;" >
+			</div>
+
+	<p style="margin-top: 40px; margin-bottom: 15px;">Hoy no imprimiré.</p>
+	<h3>“La única forma, si vamos a mejorar la calidad del medio ambiente, es involucrar a todo el mundo.”</h3>
+	<p>Richard Rogers</p>
+	<br>
+	<p>El 40% de la madera talada para uso industrial se usa para fabricar papel. Cada año se pierden unos 15.000 millones de árboles y de continuar así, en 300 años habrán desaparecido por completo. Así también otras de las consecuencias en el medio ambiente son:</p>
+	<br>
+	<p>- En su fabricación se consumen grandes cantidades de agua y energía.</p>
+	<p>- Uso intensivo de los medios de transporte, lo que deja una elevada huella de carbono.</p>
+	<p>- Es una de las mayores contaminantes del agua y del aire.</p>
+	<p>- Es una de las que más gases efecto invernadero emite, alrededor de 3,3 kg de CO2 equivalente por cada kilo de papel.</p>
+	<p>- En el blanqueo de la pasta se utiliza el cloro, que es muy nocivo para la salud de las personas y para el medio ambiente.</p>
+	<br>
+	<p>- Si tu trabajo te lo permite imprime solamente lo necesario, si es muy necesario imprimir utiliza los dos
+ 	lados de la hoja y opta por hojas recicladas.</p>
+	<br>
+
+	<div class="footer">
+		<a href="info.html">
+			<button class="boton_2">Regresar</button>
+		</a>
+
+	</div>
+
+	</div>
+
+	</div>
+</body>
+</html>

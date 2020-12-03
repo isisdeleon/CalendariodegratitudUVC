@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Día 2</title>
+	<meta charset="utf-8"/>
+	<link rel="stylesheet" type="text/css" href="estilos.css">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+	<div class="mySidebar" style="width: 0px; transition: 0.05s;" id="mySidebar">
+		<div class="closebtn" onclick="menu_cerrar()">&times;</div>
+		<a href="intro.html">Calendario de Gratitud</a>
+		
+	</div>
+	
+	<script>
+	function menu_abrir() {
+		document.getElementById("mySidebar").style.width = "250px";
+	}	
+
+	function menu_cerrar() {
+		document.getElementById("mySidebar").style.width = "0px";
+		document.getElementById("mySidebar").element.className +='no-shadow';
+	}
+	</script>
+
+	<div class="contenedor_menu">
+		<div class="elementos_menu">
+			<div onclick="menu_abrir()">
+				<img class="img_menu" src="img/opc.png">
+			</div>
+				<img img class="logo_app" src="img/logo.png">
+		</div>
+	</div>
+
+	<div class="contenedor_info">
+		<div class="margenes">
+			<h2>Día 2</h2>
+			<br>
+			<h3>#Wedoittogether</h3>
+
+			<div style="margin-top: 15px; margin-bottom: 15px; height:140px;">
+				<img src="img/2.1.png" style="width:40%; height: auto; display: block; margin-left: auto; margin-right: auto;" >
+			</div>
+
+	<p style="margin-top: 40px; margin-bottom: 15px;">Apagaré las luces que no necesito en mi casa y oficina.</p>
+	<h3>"La Tierra proporciona lo suficiente para satisfacer las necesidades de cada hombre, pero no la codicia de cada hombre"</h3>
+	<p>Mahatma Gandhi</p>
+	<br>
+	<p>Hemos escuchado acerca del cambio climático, pero ¿Qué es?. El cambio climático es la variación del clima en el mundo. Esto es causado por el calentamiento global, que es el aumento de la temperatura del planeta debido a las emisiones excesivas de Gases de Efecto Invernadero. Los gases de efecto invernadero se da por la quema de residuos fósiles como el petróleo y el gas. Todos participamos en las emisiones de los gases de efecto invernadero, un ejemplo de esto es el uso de la energía eléctrica. Por eso es muy importante disminuir su consumo. Algunas acciones que podemos realizar son:</p>
+	<br>
+	<p>- Utilizar la luz natural durante el día</p>
+	<p>- Desconectar los equipos electrónicos que no estamos ocupando</p>
+	<p>- Utilizar focos ahorradores</p>
+	<p>- Secar la ropa con el viento o el sol en lugar del uso de secadora</p>
+	<br>
+
+	<div class="footer">
+		<a href="info.html">
+			<button class="boton_2">Regresar</button>
+		</a>
+
+	</div>
+
+	</div>
+
+	</div>
+</body>
+</html>

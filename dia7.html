@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Día 7</title>
+	<meta charset="utf-8"/>
+	<link rel="stylesheet" type="text/css" href="estilos.css">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+	<div class="mySidebar" style="width: 0px; transition: 0.05s;" id="mySidebar">
+		<div class="closebtn" onclick="menu_cerrar()">&times;</div>
+		<a href="intro.html">Calendario de Gratitud</a>
+		
+	</div>
+	
+	<script>
+	function menu_abrir() {
+		document.getElementById("mySidebar").style.width = "250px";
+	}	
+
+	function menu_cerrar() {
+		document.getElementById("mySidebar").style.width = "0px";
+		document.getElementById("mySidebar").element.className +='no-shadow';
+	}
+	</script>
+
+	<div class="contenedor_menu">
+		<div class="elementos_menu">
+			<div onclick="menu_abrir()">
+				<img class="img_menu" src="img/opc.png">
+			</div>
+				<img img class="logo_app" src="img/logo.png">
+		</div>
+	</div>
+
+	<div class="contenedor_info">
+		<div class="margenes">
+			<h2>Día 7</h2>
+			<br>
+			<h3>#Weinspireaction</h3>
+
+			<div style="margin-top: 15px; margin-bottom: 15px; height:140px;">
+				<img src="img/7.1.png" style="width:30%; height: auto; display: block; margin-left: auto; margin-right: auto;" >
+			</div>
+
+	<p style="margin-top: 40px; margin-bottom: 15px;">Trataré de no adquirir plástico.</p>
+		<h3>"El ambiente no es nuestra propiedad y no lo podemos destruir. Más bien es la responsabilidad de todos y debemos protegerlo"</h3>
+	<p>Mohith Agadi</p>
+	<br>
+	<p>Una de los principales problemáticas ambientales que se presentan es la cantidad de residuos que se generan. ¿Sabes cuantos años de vida tienen tus residuos en el planeta?</p>
+	<br>
+	<p>- Residuos orgánicos: 4 semanas </p>
+	<p>- Papel y cartón: 1 año </p>
+	<p>- Aluminio: 10 años </p>
+	<p>- Plástico: dependiendo de su tipo tarda de 150 a 1000 años</p>
+	<p>- Vidrio: 4000 años</p>
+	<p>- Colilla de cigarros: 2 años</p>
+	<br>
+	<p>¿Qué podemos hacer para disminuir nuestro consumo de plástico?</p>
+	<br>
+	<p>- Adquiere productos a granel en lugar de presentaciones individuales</p>
+	<p>- Utiliza un termo para el agua</p>
+	<p>- Cuando vayas a una cafetería lleva tu termo</p>
+	<p>- Cuando vayas al super utiliza bolsas para las verduras reutilizables</p>
+	<p>- Utiliza popotes reutilizables</p>
+	<br>
+	
+	<div class="footer">
+		<a href="info.html">
+			<button class="boton_2">Regresar</button>
+		</a>
+
+	</div>
+
+	</div>
+
+	</div>
+</body>
+</html>
